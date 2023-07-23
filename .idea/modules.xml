@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mq-manual.iml" filepath="$PROJECT_DIR$/.idea/Mq-manual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-broker.iml" filepath="$PROJECT_DIR$/mq-broker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-common.iml" filepath="$PROJECT_DIR$/mq-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-consumer.iml" filepath="$PROJECT_DIR$/mq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-producer.iml" filepath="$PROJECT_DIR$/mq-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-test.iml" filepath="$PROJECT_DIR$/mq-test.iml" />
+    </modules>
+  </component>
+</project>

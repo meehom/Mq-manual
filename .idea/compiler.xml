@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/mq-parent/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mq-test" />
+        <module name="mq-common" />
+        <module name="mq-consumer" />
+        <module name="mq-producer" />
+        <module name="mq-broker" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="mq-broker" target="1.8" />
+      <module name="mq-common" target="1.7" />
+      <module name="mq-consumer" target="1.8" />
+      <module name="mq-producer" target="1.8" />
+      <module name="mq-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
